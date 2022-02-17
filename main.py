@@ -1908,7 +1908,6 @@ def led_2_ctrl(state):
         GPIO.output(4, GPIO.LOW)
 
 if __name__ == '__main__':
-    settings.killprocess()
     try:
         os.system("sudo rm /home/pi/grandDome/images/rti/*.JPG")
     except:
@@ -1934,17 +1933,9 @@ if __name__ == '__main__':
     lp_path = "/home/pi/grandDome/LPFiles/"
 
     ### Camera options
-    camera_folder = "/store_00020001/DCIM/100CANON"
     print("---****-----")
-    try:
-        subprocess.run(["gphoto2", "--set-config", "eosremoterelease=4"]) #### Release = Immediate 5 --- Release Full 4 
-    except:
-        pass
     print("---****-----****----")
-    trigCMD = ["--trigger-capture"]
-    download_allCMD = ["--get-all-files"] ## download files
-    clearCMD = ["--folder", camera_folder, "-R", "--delete-all-files"] ### To Change if the camera is not Canon !!
-    
+   
     shot_date = datetime.datetime.now().strftime("%Y%m%d")
     shot_time = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
     picID = "RTI"

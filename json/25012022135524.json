@@ -1,0 +1,51 @@
+{
+    "Activity": {
+        "WHO": {
+            "Actor": "",
+            "Company": ""
+        },
+        "WHERE": {
+            "Place": ""
+        },
+        "WHEN": {
+            "Date": "25/01/2022",
+            "Time": "13:55"
+        },
+        "WHAT": {
+            "Appelation": "rti333",
+            "Description": ""
+        },
+        "HOW": {
+            "Modality": {
+                "Technique": "RTI",
+                "Protocol": {
+                    "Automation": "",
+                    "Detail": {
+                        "AcquisitionType": "",
+                        "LPFilename": "LP",
+                        "DomeDiameterinmm": 750
+                    }
+                }
+            }
+        },
+        "WHICH": {
+            "Camera": {
+                "Type": "DSRL",
+                "Model": "",
+                "Focal": "",
+                "Iso": "",
+                "Aperture": "",
+                "Whitebalance": "",
+                "Shutterspeed": ""
+            },
+            "Light": {
+                "SourceType": "LED",
+                "Number": "",
+                "Natural": "True"
+            }
+        },
+        "WHY": {
+            "Project": ""
+        }
+    }
+}

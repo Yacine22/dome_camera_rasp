@@ -1,0 +1,51 @@
+{
+    "Activity": {
+        "WHO": {
+            "Actor": "Eloi",
+            "Company": "Mercurio"
+        },
+        "WHERE": {
+            "Place": ""
+        },
+        "WHEN": {
+            "Date": "25/01/2022",
+            "Time": "14:38"
+        },
+        "WHAT": {
+            "Appelation": "rtitrsys",
+            "Description": ""
+        },
+        "HOW": {
+            "Modality": {
+                "Technique": "RTI",
+                "Protocol": {
+                    "Automation": "",
+                    "Detail": {
+                        "AcquisitionType": "RTI LEGERE",
+                        "LPFilename": "LP",
+                        "DomeDiameterinmm": 750
+                    }
+                }
+            }
+        },
+        "WHICH": {
+            "Camera": {
+                "Type": "DSRL",
+                "Model": "",
+                "Focal": "",
+                "Iso": "",
+                "Aperture": "",
+                "Whitebalance": "",
+                "Shutterspeed": ""
+            },
+            "Light": {
+                "SourceType": "LED",
+                "Number": 85,
+                "Natural": "True"
+            }
+        },
+        "WHY": {
+            "Project": ""
+        }
+    }
+}

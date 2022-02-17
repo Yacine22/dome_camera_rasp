@@ -1,0 +1,51 @@
+{
+    "Activity": {
+        "WHO": {
+            "Actor": "",
+            "Company": ""
+        },
+        "WHERE": {
+            "Place": ""
+        },
+        "WHEN": {
+            "Date": "25/01/2022",
+            "Time": "14:01"
+        },
+        "WHAT": {
+            "Appelation": "CARTIER_BAGUE01",
+            "Description": ""
+        },
+        "HOW": {
+            "Modality": {
+                "Technique": "RTI",
+                "Protocol": {
+                    "Automation": "",
+                    "Detail": {
+                        "AcquisitionType": "RTI LEGERE",
+                        "LPFilename": "LP",
+                        "DomeDiameterinmm": 750
+                    }
+                }
+            }
+        },
+        "WHICH": {
+            "Camera": {
+                "Type": "DSRL",
+                "Model": " Canon EOS 2000D",
+                "Focal": "",
+                "Iso": 100,
+                "Aperture": 8,
+                "Whitebalance": " Fluorescent",
+                "Shutterspeed": " 1/4"
+            },
+            "Light": {
+                "SourceType": "LED",
+                "Number": 85,
+                "Natural": "True"
+            }
+        },
+        "WHY": {
+            "Project": ""
+        }
+    }
+}

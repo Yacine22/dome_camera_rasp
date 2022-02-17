@@ -1,0 +1,43 @@
+{
+    "Activity": {
+        "WHO": {
+            "Actor": "ELOI",
+            "Company": ""
+        },
+        "WHERE": {
+            "Place": ""
+        },
+        "WHEN": {
+            "Date": "25/01/2022",
+            "Time": "14:01"
+        },
+        "WHAT": {
+            "Appelation": "rti",
+            "Description": ""
+        },
+        "HOW": {
+            "Modality": {
+                "Technique": "RTI",
+                "Protocol": {
+                    "Automation": "",
+                    "Detail": {
+                        "AcquisitionType": "",
+                        "LPFilename": "LP",
+                        "DomeDiameterinmm": 750
+                    }
+                }
+            }
+        },
+        "WHICH": {
+            "Camera": {},
+            "Light": {
+                "SourceType": "LED",
+                "Number": "",
+                "Natural": "True"
+            }
+        },
+        "WHY": {
+            "Project": ""
+        }
+    }
+}
